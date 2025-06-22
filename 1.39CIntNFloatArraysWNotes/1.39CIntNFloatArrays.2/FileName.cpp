@@ -18,18 +18,18 @@ int main()
 	/*So here comp looks to i which is at first set to 0 and adds 1 to it to make it day 1 (i+1 --> 0+1)*/
 	//This sentence prints to this to screen: How many meatballs did you eat on day 1?
 		scanf_s("%d", &meatBalls[i]);	
-		//This loops 5 times before moving to next control statment (for loop)
+		//This loops 5 times before moving to next control statment (for loop). Fills array meatballs with 5 values int meatBalls = [2,3,7,8,5]
 	}
 
 	for (i = 0; i < 5; i++) {
 		//After user enters data
-		//This accesses the array and "meatBalls" to store data from equation in memory
+		//This accesses the array and "meatBalls" to retrieve data in memory to computed next step (equation below)
 		//0<5 so:
 		totalBalls += meatBalls[i];
 		//First iteration: totalBalls = 0 + meatBalls (user entry - lets say 2 for first day for example
 		//totalBalls = 0 + 2= 2 meatballs on first day.  Next day example is user enters 3 so
 		//totalBalls = 2+3 = 5 Five total balls on 2nd day.  This needs to loop 5 times to get true total balls
-		//iterates 5 times with next 3 days being. 10, 5 and 5 so the total is 30.  The loop finally iterates to 
+		//iterates 5 times with next 3 days being. 10, 5 and 5 so the total is 30.  The loop finally increments to 
 		//4++ which is 4 +1 = 5 sp 5<5? False exits for loop to go onto next step which is averaging the meatBalls
 	}
 
